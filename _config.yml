@@ -1,0 +1,30 @@
+title: IA e Desenvolvimento de Software
+description: >-
+  Conteudo sobre o impacto da inteligencia artificial no desenvolvimento de
+  software, com foco em produtividade, qualidade, documentacao e evolucao dos
+  times de engenharia.
+
+url: "https://darpbr.github.io"
+baseurl: "/skills-github-pages"
+
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+minima:
+  skin: classic
